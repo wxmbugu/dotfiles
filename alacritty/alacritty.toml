@@ -23,8 +23,19 @@ background = "0x1a1b26"
 foreground = "0xa9b1d6"
 
 [font]
-size = 5.5
+size = 5.2
 
 [font.normal]
 family = "source code pro"
 style = "Bold"
+[env]
+WINIT_X11_SCALE_FACTOR = "1.6"
+# [window]
+# blur = true
+# opacity=0.8
+# title="Alacritty"
+[cursor]
+blink_interval = 500
+[cursor.style]
+shape = "Block"
+blinking = "Always"
